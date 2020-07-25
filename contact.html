@@ -123,12 +123,21 @@
 										<div class="collapse navbar-collapse" id="gfx-collapse">
 											<ul class="nav navbar-nav gfx-nav">
 												<li class="dropdown">
-													<a href="index.html">Home</a>
+													<a href="index.html">Home </a>
+	
 												</li>
-												<li><a href="about-us-alt.html">About Us</a></li>
-												<li><a href="projects-grid-full.html">Projects</a></li>
-												<li><a href="blog-default.html">Blog</a></li>
-                                                <li class="active"><a href="contact.html">Contact</a></li>
+												<li>
+													<a href="about-us.html">About Us</a>
+												</li>
+												<li class="dropdown">
+													<a href="projects.html">Projects</a>
+	
+												</li>
+												<li class="dropdown">
+													<a href="blogs.html">Blog </a>
+	
+												</li>
+												<li class="active"><a href="contact.html">Contact</a></li>
 											</ul>
 										</div><!-- /.navbar-collapse -->
 									
@@ -185,19 +194,19 @@
             	<div class="white-space space-big"></div>
                 
             	<div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                     	<h3 class="fancy-title"><span>Get in touch</span></h3>
-                        <p>Lets Start Better Future together</p>
+                        <p style="font-size:25px">Lets Start Better Future together</p>
 						<div class="row">	
                         	<div class="col-sm-6">
-                            	<ul class="list-default fa-ul">
+                            	<ul class="list-default fa-ul" style="font-size:20px">
                         			<li><span class="fa-li fa fa-phone color-default"></span>(123) 456-7890</li>
                             		<li><span class="fa-li fa fa-envelope color-default"></span>office@avendor.com</li>
                             		<li><span class="fa-li fa fa-clock-o color-default"></span><strong>Monday - Friday:</strong> 09:00 - 18:00</li>                            
                         		</ul>
                             </div>
                         	<div class="col-sm-6">
-                            	<ul class="list-default fa-ul">
+                            	<ul class="list-default fa-ul" style="font-size:20px">
                         			<li><span class="fa-li fa fa-map-marker color-default"></span>141 Fifth Avenue, 44th Floor New York, United States </li>
                             		<li><span class="fa-li fa fa-envelope color-default"></span>office@avendor.com</li>                         
                         		</ul>
@@ -205,32 +214,7 @@
                         </div>
                         <div class="white-space space-small"></div>
                     </div>
-                    <div class="col-md-6">
-                    	<h3 class="fancy-title"><span>Contact Form</span></h3>
-						
-                        <!-- Form -->
-						<form class="form-horizontal" role="form">
-							<div class="form-group">
-								<div class="col-sm-6">
-									<input type="name" class="form-control" id="inputName" placeholder="Name">
-								</div>
-								<div class="col-sm-6">
-									<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-								</div>    
-								<div class="col-sm-12">
-									<input type="message" class="form-control" id="inputEmail3" placeholder="Subject">
-								</div> 
-								<div class="col-sm-12">
-									<textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-								</div> 
-								<div class="col-sm-12">
-									<a type="submit" class="btn btn-primary center-block">Send Message</a>
-								</div>
-							</div>
-						</form>                        
-                        <!-- /Form --> 
-                                               
-                        <div class="white-space space-small"></div>
+                    <div class="white-space space-small"></div>
                     </div>
 				</div>               
 			
@@ -358,6 +342,12 @@
    
     <!-- Load Scripts -->
 	<script src="js/themejs/application.js"></script>
+
+	<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+	<script>
+	  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+	  formbutton("create", {action: "https://formspree.io/xeqrvlyz"})
+	</script>
 
   </body>
 </html>
